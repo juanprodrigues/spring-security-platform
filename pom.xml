@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-   		 <version>3.5.3</version>
+   		 <version>3.4.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 <groupId>com.spring-security-platform</groupId>
@@ -21,12 +21,12 @@
 <modules>
     <module>security-core</module>
     <module>security-starter</module>
-    <module>commons</module>   
+ <!--   <module>commons</module>   
     <module>ms-auth</module>
     <module>api-gateway</module>
-    <module>ms-productos</module>
+     <module>ms-productos</module>
     <module>ms-clientes</module>
-    <module>ms-pedidos</module>
+    <module>ms-pedidos</module> -->
 </modules>
 
 <properties>
