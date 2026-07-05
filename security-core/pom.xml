@@ -14,8 +14,6 @@
 
 	<groupId>com.security</groupId>
 	<artifactId>security-core</artifactId>
-	<version>1.0.0</version>
-
 	<name>security-core</name>
 
 	<properties>
