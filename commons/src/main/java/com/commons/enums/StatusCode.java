@@ -1,4 +1,4 @@
-package com.empresa.commons.enums;
+package com.commons.enums;
 
 public enum StatusCode {
     SUCCESS,

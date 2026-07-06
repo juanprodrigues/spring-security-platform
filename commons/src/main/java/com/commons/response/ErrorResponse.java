@@ -1,4 +1,4 @@
-package com.empresa.commons.response;
+package com.commons.response;
 
 import java.time.LocalDateTime;
 import java.util.List;

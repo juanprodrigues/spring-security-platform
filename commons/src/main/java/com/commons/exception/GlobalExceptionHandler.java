@@ -1,4 +1,4 @@
-package com.empresa.commons.exception;
+package com.commons.exception;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -8,8 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.commons.exception.BusinessException;
-import com.empresa.commons.response.ErrorResponse;
+import com.commons.response.ErrorResponse;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {

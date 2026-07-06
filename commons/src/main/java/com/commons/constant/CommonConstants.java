@@ -1,4 +1,4 @@
-package com.empresa.commons.constant;
+package com.commons.constant;
 
 public final class CommonConstants {
 
