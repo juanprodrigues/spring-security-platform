@@ -4,6 +4,7 @@ import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Import;
 
 import com.security.core.config.JwtConfiguration;
 import com.security.core.jwt.JwtProvider;
@@ -14,10 +15,17 @@ import com.security.starter.handler.JwtAccessDeniedHandler;
 import com.security.starter.handler.JwtAuthenticationEntryPoint;
 import com.security.starter.properties.JwtProperties;
 
+import jakarta.annotation.PostConstruct;
+
 @AutoConfiguration
 @EnableConfigurationProperties(JwtProperties.class)
+@Import(SecurityConfig.class)
 public class SecurityAutoConfiguration {
 
+	@PostConstruct
+	public void init() {
+	    System.out.println("SECURITY STARTER CARGADO");
+	}
     @Bean
     @ConditionalOnMissingBean
     public JwtProvider jwtProvider(JwtProperties properties) {
