@@ -21,11 +21,11 @@
 <modules>
     <module>security-core</module>
     <module>security-starter</module>
- <!--   <module>commons</module>   
+  <module>commons</module>   
     <module>ms-auth</module>
     <module>api-gateway</module>
      <module>ms-productos</module>
-    <module>ms-clientes</module>
+  <!--    <module>ms-clientes</module>
     <module>ms-pedidos</module> -->
 </modules>
 
